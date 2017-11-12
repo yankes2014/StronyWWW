@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="test.xslt"?>
+<Faktura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">		
+	<daty>
+		<Miejsce>Warszawa</Miejsce>
+		<DataSprzedazy>03.05.2017</DataSprzedazy>
+		<DataWystawienia>10.02.2017</DataWystawienia>
+	</daty>
+	
+	<NumerFaktury>12 34 56</NumerFaktury>
+	
+	<Nabywca>
+		<ImieNazwisko>Dorota Jaroni</ImieNazwisko>
+		<AdresNabywcy>Warszawa ul. Mokotowska 144</AdresNabywcy>
+	</Nabywca>
+	
+	<Uslugi>
+	
+		<Rzecz>
+			<Nazwa>Klapki</Nazwa>
+			<PKWIU>16</PKWIU>
+			<JM>11</JM>
+			<Ilosc>2</Ilosc>
+			<Cena>54</Cena>
+			<WartBrutto>86</WartBrutto>
+			<VatProcent>11</VatProcent>
+			<VatZl>21</VatZl>
+			<WartNetto>7</WartNetto>
+		</Rzecz>
+	
+		<Rzecz>
+			<Nazwa>Spodenki</Nazwa>
+			<PKWIU>9</PKWIU>
+			<JM>11</JM>
+			<Ilosc>2</Ilosc>
+			<Cena>14</Cena>
+			<WartBrutto>3</WartBrutto>
+			<VatProcent>2</VatProcent>
+			<VatZl>75</VatZl>
+			<WartNetto>5</WartNetto>
+		</Rzecz>
+	
+		<Rzecz>
+			<Nazwa>Czapka</Nazwa>
+			<PKWIU>3</PKWIU>
+			<JM>11</JM>
+			<Ilosc>2</Ilosc>
+			<Cena>14</Cena>
+			<WartBrutto>14</WartBrutto>
+			<VatProcent>21</VatProcent>
+			<VatZl>21</VatZl>
+			<WartNetto>21</WartNetto>
+		</Rzecz>
+	
+		<Rzecz>
+			<Nazwa>Koc</Nazwa>
+			<PKWIU>12</PKWIU>
+			<JM>11</JM>
+			<Ilosc>28</Ilosc>
+			<Cena>164</Cena>
+			<WartBrutto>272</WartBrutto>
+			<VatProcent>81</VatProcent>
+			<VatZl>21</VatZl>
+			<WartNetto>11</WartNetto>
+		</Rzecz>
+	
+		<Rzecz>
+			<Nazwa>Okulary</Nazwa>
+			<PKWIU>12</PKWIU>
+			<JM>1</JM>
+			<Ilosc>12</Ilosc>
+			<Cena>114</Cena>
+			<WartBrutto>222</WartBrutto>
+			<VatProcent>21</VatProcent>
+			<VatZl>21</VatZl>
+			<WartNetto>21</WartNetto>
+		</Rzecz>
+	
+	</Uslugi>
+	<Slownie>sto dwa zlote zero groszy</Slownie>
+	<FormaPlatnosci>Karta</FormaPlatnosci>
+	<Zaplacono>Tak</Zaplacono>
+	<TerminPlatnosci>10.02.2016</TerminPlatnosci>
+	<Wystawil>Mariusz Ozimkowski</Wystawil>
+	<Odebral>Piotr Leszczyna</Odebral>
+</Faktura>
